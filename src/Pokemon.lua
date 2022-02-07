@@ -30,7 +30,7 @@ function Pokemon:init(def, level)
     self.speed = self.baseSpeed
 
     self.level = level
-    self.currentExp = 90 -- smarty
+    self.currentExp = 0 -- 90 smarty
     self.expToLevel = self.level * self.level * 5 * 0.75
 
     self:calculateStats()
