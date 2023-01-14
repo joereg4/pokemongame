@@ -34,6 +34,10 @@
             mnbramson@gmail.com
         Cardiwing - Spalding004
             https://wiki.tuxemon.org/index.php?title=Spalding004
+        Sharpfin - Leo, Sanglorian, and extyrannomon
+            https://wiki.tuxemon.org/index.php?title=Leo
+            https://wiki.tuxemon.org/index.php?title=Sanglorian
+            https://wiki.tuxemon.org/index.php?title=Extyrannomon&action=edit&redlink=1
 
     Credit for music:
     Field: https://freesound.org/people/Mrthenoronha/sounds/371843/

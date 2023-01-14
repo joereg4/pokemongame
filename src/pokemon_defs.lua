@@ -7,7 +7,7 @@
 ]]
 
 POKEMON_IDS = {
-    'aardart', 'agnite', 'anoleaf', 'bamboon', 'cardiwing'
+    'aardart', 'agnite', 'anoleaf', 'bamboon', 'cardiwing', 'sharpfin'
 }
 
 POKEMON_DEFS = {
@@ -75,5 +75,18 @@ POKEMON_DEFS = {
         attackIV = 4,
         defenseIV = 2,
         speedIV = 4
+    },
+    ['sharpfin'] = {
+        name = 'Sharpfin',
+        battleSpriteFront = 'sharpfin-front',
+        battleSpriteBack = 'sharpfin-back',
+        baseHP = 15,
+        baseAttack = 10,
+        baseDefense = 6,
+        baseSpeed = 8,
+        HPIV = 4,
+        attackIV = 6,
+        defenseIV = 5,
+        speedIV = 5
     }
 }
