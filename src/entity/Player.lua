@@ -5,15 +5,15 @@
     Author: Colton Ogden
     cogden@cs50.harvard.edu
 ]]
-
-Player = Class{__includes = Entity}
+Player = Class {__includes = Entity}
 
 function Player:init(def)
     Entity.init(self, def)
 
-    self.party = Party {
+    self.party =
+        Party {
         pokemon = {
-            Pokemon(Pokemon.getRandomDef(), 5)
+            Pokemon(Pokemon.getRandomDef(), 7)
         }
     }
 end

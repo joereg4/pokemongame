@@ -5,16 +5,21 @@
     Author: Colton Ogden
     cogden@cs50.harvard.edu
 ]]
-
 POKEMON_IDS = {
-    'aardart', 'agnite', 'anoleaf', 'bamboon', 'cardiwing', 'sharpfin'
+    "aardart",
+    "agnite",
+    "anoleaf",
+    "bamboon",
+    "cardiwing",
+    "bigfin",
+    "sharpfin"
 }
 
 POKEMON_DEFS = {
-    ['aardart'] = {
-        name = 'Aardart',
-        battleSpriteFront = 'aardart-front',
-        battleSpriteBack = 'aardart-back',
+    ["aardart"] = {
+        name = "Aardart",
+        battleSpriteFront = "aardart-front",
+        battleSpriteBack = "aardart-back",
         baseHP = 14,
         baseAttack = 9,
         baseDefense = 5,
@@ -24,10 +29,10 @@ POKEMON_DEFS = {
         defenseIV = 2,
         speedIV = 3
     },
-    ['agnite'] = {
-        name = 'Agnite',
-        battleSpriteFront = 'agnite-front',
-        battleSpriteBack = 'agnite-back',
+    ["agnite"] = {
+        name = "Agnite",
+        battleSpriteFront = "agnite-front",
+        battleSpriteBack = "agnite-back",
         baseHP = 12,
         baseAttack = 7,
         baseDefense = 3,
@@ -37,10 +42,10 @@ POKEMON_DEFS = {
         defenseIV = 2,
         speedIV = 4
     },
-    ['anoleaf'] = {
-        name = 'Anoleaf',
-        battleSpriteFront = 'anoleaf-front',
-        battleSpriteBack = 'anoleaf-back',
+    ["anoleaf"] = {
+        name = "Anoleaf",
+        battleSpriteFront = "anoleaf-front",
+        battleSpriteBack = "anoleaf-back",
         baseHP = 11,
         baseAttack = 5,
         baseDefense = 5,
@@ -50,10 +55,10 @@ POKEMON_DEFS = {
         defenseIV = 3,
         speedIV = 4
     },
-    ['bamboon'] = {
-        name = 'Bamboon',
-        battleSpriteFront = 'bamboon-front',
-        battleSpriteBack = 'bamboon-back',
+    ["bamboon"] = {
+        name = "Bamboon",
+        battleSpriteFront = "bamboon-front",
+        battleSpriteBack = "bamboon-back",
         baseHP = 13,
         baseAttack = 6,
         baseDefense = 4,
@@ -63,10 +68,10 @@ POKEMON_DEFS = {
         defenseIV = 2,
         speedIV = 5
     },
-    ['cardiwing'] = {
-        name = 'Cardiwing',
-        battleSpriteFront = 'cardiwing-front',
-        battleSpriteBack = 'cardiwing-back',
+    ["cardiwing"] = {
+        name = "Cardiwing",
+        battleSpriteFront = "cardiwing-front",
+        battleSpriteBack = "cardiwing-back",
         baseHP = 14,
         baseAttack = 7,
         baseDefense = 3,
@@ -76,14 +81,27 @@ POKEMON_DEFS = {
         defenseIV = 2,
         speedIV = 4
     },
-    ['sharpfin'] = {
-        name = 'Sharpfin',
-        battleSpriteFront = 'sharpfin-front',
-        battleSpriteBack = 'sharpfin-back',
+    ["sharpfin"] = {
+        name = "Sharpfin",
+        battleSpriteFront = "cardiwing-back",
+        battleSpriteBack = "cardiwing-front",
         baseHP = 15,
         baseAttack = 10,
         baseDefense = 6,
         baseSpeed = 8,
+        HPIV = 4,
+        attackIV = 6,
+        defenseIV = 5,
+        speedIV = 5
+    },
+    ["bigfin"] = {
+        name = "Bigfin",
+        battleSpriteFront = "bamboon-back",
+        battleSpriteBack = "bamboon-front",
+        baseHP = 14,
+        baseAttack = 9,
+        baseDefense = 5,
+        baseSpeed = 7,
         HPIV = 4,
         attackIV = 6,
         defenseIV = 5,

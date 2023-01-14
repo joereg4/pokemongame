@@ -5,8 +5,7 @@
     Author: Colton Ogden
     cogden@cs50.harvard.edu
 ]]
-
-Pokemon = Class{}
+Pokemon = Class {}
 
 function Pokemon:init(def, level)
     self.name = def.name
