@@ -83,8 +83,8 @@ POKEMON_DEFS = {
     },
     ["sharpfin"] = {
         name = "Sharpfin",
-        battleSpriteFront = "cardiwing-back",
-        battleSpriteBack = "cardiwing-front",
+        battleSpriteFront = "sharpfin-front",
+        battleSpriteBack = "sharpfin-back",
         baseHP = 15,
         baseAttack = 10,
         baseDefense = 6,
@@ -96,8 +96,8 @@ POKEMON_DEFS = {
     },
     ["bigfin"] = {
         name = "Bigfin",
-        battleSpriteFront = "bamboon-back",
-        battleSpriteBack = "bamboon-front",
+        battleSpriteFront = "bigfin-front",
+        battleSpriteBack = "bigfin-back",
         baseHP = 14,
         baseAttack = 9,
         baseDefense = 5,
