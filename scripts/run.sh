@@ -1,0 +1,1 @@
+/Applications/love.app/Contents/MacOS/love /Users/joereg4/PokemonGame/pokemongame/
