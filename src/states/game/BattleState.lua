@@ -18,7 +18,13 @@ function BattleState:init(player)
         Opponent {
         party = Party {
             pokemon = {
-                Pokemon(Pokemon.getRandomDef(), math.random(2, 20))
+                Pokemon(
+                    Pokemon.getRandomDef(),
+                    math.random(
+                        math.max(self.player.party.pokemon[1].level - 4, 2),
+                        self.player.party.pokemon[1].level + 2
+                    )
+                )
             }
         }
     }

@@ -89,22 +89,22 @@ POKEMON_DEFS = {
         baseAttack = 9,
         baseDefense = 5,
         baseSpeed = 7,
-        HPIV = 4,
-        attackIV = 6,
+        HPIV = 5,
+        attackIV = 4,
         defenseIV = 5,
-        speedIV = 5
+        speedIV = 4
     },
     ["sharpfin"] = {
         name = "Sharpfin",
         battleSpriteFront = "sharpfin-front",
         battleSpriteBack = "sharpfin-back",
-        baseHP = 15,
+        baseHP = 13,
         baseAttack = 10,
         baseDefense = 5,
-        baseSpeed = 8,
+        baseSpeed = 7,
         HPIV = 4,
-        attackIV = 6,
-        defenseIV = 5,
+        attackIV = 5,
+        defenseIV = 4,
         speedIV = 5
     }
 }
