@@ -16,6 +16,7 @@ POKEMON_IDS = {
     "typhlosion",
     "blastoise",
     "combusken",
+    "monferno",
     "raichu"
 }
 
@@ -154,6 +155,19 @@ POKEMON_DEFS = {
         name = "Raichu",
         battleSpriteFront = "raichu-front",
         battleSpriteBack = "raichu-back",
+        baseHP = 10,
+        baseAttack = 5,
+        baseDefense = 3,
+        baseSpeed = 5,
+        HPIV = 3,
+        attackIV = 4,
+        defenseIV = 3,
+        speedIV = 4
+    },
+    ["monferno"] = {
+        name = "Monferno",
+        battleSpriteFront = "monferno-front",
+        battleSpriteBack = "monferno-back",
         baseHP = 10,
         baseAttack = 5,
         baseDefense = 3,

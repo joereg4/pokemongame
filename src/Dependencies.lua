@@ -77,6 +77,8 @@ gTextures = {
     ["blastoise-front"] = love.graphics.newImage("graphics/pokemon/blastoise-front.png"),
     ["combusken-back"] = love.graphics.newImage("graphics/pokemon/combusken-back.png"),
     ["combusken-front"] = love.graphics.newImage("graphics/pokemon/combusken-front.png"),
+    ["monferno-back"] = love.graphics.newImage("graphics/pokemon/monferno-back.png"),
+    ["monferno-front"] = love.graphics.newImage("graphics/pokemon/monferno-front.png"),
     ["raichu-back"] = love.graphics.newImage("graphics/pokemon/raichu-back.png"),
     ["raichu-front"] = love.graphics.newImage("graphics/pokemon/raichu-front.png")
 }
