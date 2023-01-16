@@ -10,9 +10,9 @@ StartState = Class {__includes = BaseState}
 function StartState:init()
     gSounds["intro-music"]:play()
 
-    self.sprite = POKEMON_DEFS[POKEMON_IDS[math.random(#POKEMON_IDS)]].battleSpriteFront
-    self.spriteX = VIRTUAL_WIDTH / 2 - 32
-    self.spriteY = VIRTUAL_HEIGHT / 2 - 16
+    self.sprite = POKEMON_DEFS[POKEMON_IDS[math.random(#POKEMON_IDS)]].artwork
+    self.spriteX = VIRTUAL_WIDTH / 2 - 48
+    self.spriteY = VIRTUAL_HEIGHT / 2 - 48
 
     self.tween =
         Timer.every(
@@ -25,9 +25,9 @@ function StartState:init()
                 }
             ):finish(
                 function()
-                    self.sprite = POKEMON_DEFS[POKEMON_IDS[math.random(#POKEMON_IDS)]].battleSpriteFront
+                    self.sprite = POKEMON_DEFS[POKEMON_IDS[math.random(#POKEMON_IDS)]].artwork
                     self.spriteX = VIRTUAL_WIDTH
-                    self.spriteY = VIRTUAL_HEIGHT / 2 - 16
+                    self.spriteY = VIRTUAL_HEIGHT / 2 - 48
 
                     Timer.tween(
                         0.2,
@@ -89,7 +89,7 @@ function StartState:render()
 
     love.graphics.setColor(24 / 255, 24 / 255, 24 / 255, 1)
     love.graphics.setFont(gFonts["large"])
-    love.graphics.printf("50-Mon!", 0, VIRTUAL_HEIGHT / 2 - 72, VIRTUAL_WIDTH, "center")
+    love.graphics.printf("Pokemon!", 0, VIRTUAL_HEIGHT / 2 - 72, VIRTUAL_WIDTH, "center")
     love.graphics.setFont(gFonts["medium"])
     love.graphics.printf("Press Enter", 0, VIRTUAL_HEIGHT / 2 + 68, VIRTUAL_WIDTH, "center")
     love.graphics.setFont(gFonts["small"])

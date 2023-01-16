@@ -17,12 +17,18 @@ POKEMON_IDS = {
     "blastoise",
     "combusken",
     "monferno",
-    "raichu"
+    "raichu",
+    "braviary",
+    "pancham",
+    "rayquaza",
+    "gyarados",
+    "kyogre"
 }
 
 POKEMON_DEFS = {
     ["furret"] = {
         name = "Furret",
+        artwork = "furret-artwork",
         battleSpriteFront = "furret-front",
         battleSpriteBack = "furret-back",
         baseHP = 10,
@@ -36,6 +42,7 @@ POKEMON_DEFS = {
     },
     ["charizard"] = {
         name = "Charizard",
+        artwork = "charizard-artwork",
         battleSpriteFront = "charizard-front",
         battleSpriteBack = "charizard-back",
         baseHP = 10,
@@ -49,6 +56,7 @@ POKEMON_DEFS = {
     },
     ["treecko"] = {
         name = "Treecko",
+        artwork = "treecko-artwork",
         battleSpriteFront = "treecko-front",
         battleSpriteBack = "treecko-back",
         baseHP = 10,
@@ -61,7 +69,8 @@ POKEMON_DEFS = {
         speedIV = 4
     },
     ["ambipom"] = {
-        name = "ambipom",
+        name = "Ambipom",
+        artwork = "ambipom-artwork",
         battleSpriteFront = "ambipom-front",
         battleSpriteBack = "ambipom-back",
         baseHP = 10,
@@ -75,6 +84,7 @@ POKEMON_DEFS = {
     },
     ["lugia"] = {
         name = "Lugia",
+        artwork = "lugia-artwork",
         battleSpriteFront = "lugia-front",
         battleSpriteBack = "lugia-back",
         baseHP = 10,
@@ -88,6 +98,7 @@ POKEMON_DEFS = {
     },
     ["wailord"] = {
         name = "Wailord",
+        artwork = "wailord-artwork",
         battleSpriteFront = "wailord-front",
         battleSpriteBack = "wailord-back",
         baseHP = 10,
@@ -101,6 +112,7 @@ POKEMON_DEFS = {
     },
     ["sharpedo"] = {
         name = "Sharpedo",
+        artwork = "sharpedo-artwork",
         battleSpriteFront = "sharpedo-front",
         battleSpriteBack = "sharpedo-back",
         baseHP = 10,
@@ -114,6 +126,7 @@ POKEMON_DEFS = {
     },
     ["typhlosion"] = {
         name = "Typhlosion",
+        artwork = "typhlosion-artwork",
         battleSpriteFront = "typhlosion-front",
         battleSpriteBack = "typhlosion-back",
         baseHP = 10,
@@ -127,6 +140,7 @@ POKEMON_DEFS = {
     },
     ["blastoise"] = {
         name = "Blastoise",
+        artwork = "blastoise-artwork",
         battleSpriteFront = "blastoise-front",
         battleSpriteBack = "blastoise-back",
         baseHP = 10,
@@ -140,6 +154,7 @@ POKEMON_DEFS = {
     },
     ["combusken"] = {
         name = "Combusken",
+        artwork = "combusken-artwork",
         battleSpriteFront = "combusken-front",
         battleSpriteBack = "combusken-back",
         baseHP = 10,
@@ -153,6 +168,7 @@ POKEMON_DEFS = {
     },
     ["raichu"] = {
         name = "Raichu",
+        artwork = "raichu-artwork",
         battleSpriteFront = "raichu-front",
         battleSpriteBack = "raichu-back",
         baseHP = 10,
@@ -166,8 +182,80 @@ POKEMON_DEFS = {
     },
     ["monferno"] = {
         name = "Monferno",
+        artwork = "monferno-artwork",
         battleSpriteFront = "monferno-front",
         battleSpriteBack = "monferno-back",
+        baseHP = 10,
+        baseAttack = 5,
+        baseDefense = 3,
+        baseSpeed = 5,
+        HPIV = 3,
+        attackIV = 4,
+        defenseIV = 3,
+        speedIV = 4
+    }
+    ,
+    ["braviary"] = {
+        name = "Braviary",
+        artwork = "braviary-artwork",
+        battleSpriteFront = "braviary-front",
+        battleSpriteBack = "braviary-back",
+        baseHP = 10,
+        baseAttack = 5,
+        baseDefense = 3,
+        baseSpeed = 5,
+        HPIV = 3,
+        attackIV = 4,
+        defenseIV = 3,
+        speedIV = 4
+    },
+    ["pancham"] = {
+        name = "Pancham",
+        artwork = "pancham-artwork",
+        battleSpriteFront = "pancham-front",
+        battleSpriteBack = "pancham-back",
+        baseHP = 10,
+        baseAttack = 5,
+        baseDefense = 3,
+        baseSpeed = 5,
+        HPIV = 3,
+        attackIV = 4,
+        defenseIV = 3,
+        speedIV = 4
+    },
+    ["rayquaza"] = {
+        name = "Rayquaza",
+        artwork = "rayquaza-artwork",
+        battleSpriteFront = "rayquaza-front",
+        battleSpriteBack = "rayquaza-back",
+        baseHP = 10,
+        baseAttack = 5,
+        baseDefense = 3,
+        baseSpeed = 5,
+        HPIV = 3,
+        attackIV = 4,
+        defenseIV = 3,
+        speedIV = 4
+    },
+    ["gyarados"] = {
+        name = "Gyarados",
+        artwork = "gyarados-artwork",
+        battleSpriteFront = "gyarados-front",
+        battleSpriteBack = "gyarados-back",
+        baseHP = 10,
+        baseAttack = 5,
+        baseDefense = 3,
+        baseSpeed = 5,
+        HPIV = 3,
+        attackIV = 4,
+        defenseIV = 3,
+        speedIV = 4
+    },
+    ["kyogre"] = {
+        name = "Kyogre",
+        artwork = "kyogre-artwork",
+        battleSpriteFront = "kyogre-front",
+        battleSpriteBack = "kyogre-back",
         baseHP = 10,
         baseAttack = 5,
         baseDefense = 3,

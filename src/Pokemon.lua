@@ -10,6 +10,7 @@ Pokemon = Class {}
 function Pokemon:init(def, level)
     self.name = def.name
 
+    self.artwork = def.artwork
     self.battleSpriteFront = def.battleSpriteFront
     self.battleSpriteBack = def.battleSpriteBack
 
