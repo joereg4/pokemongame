@@ -22,7 +22,7 @@ function BattleState:init(player)
                     Pokemon.getRandomDef(),
                     math.random(
                         math.max(self.player.party.pokemon[1].level - 4, 2),
-                        self.player.party.pokemon[1].level + 2
+                        self.player.party.pokemon[1].level +2
                     )
                 )
             }
