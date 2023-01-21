@@ -132,5 +132,6 @@ gSounds = {
     ["exp"] = love.audio.newSource("sounds/exp.wav", "static"),
     ["levelup"] = love.audio.newSource("sounds/levelup.wav", "static"),
     ["victory-music"] = love.audio.newSource("sounds/victory.wav", "static"),
-    ["intro-music"] = love.audio.newSource("sounds/intro.mp3", "static")
+    ["intro-music"] = love.audio.newSource("sounds/intro.mp3", "static"),
+    ["faint"] = love.audio.newSource("sounds/faint.wav", "static")
 }

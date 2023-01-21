@@ -134,8 +134,10 @@ function TakeTurnState:faint()
     Timer.tween(0.2, {
         [self.playerSprite] = {y = VIRTUAL_HEIGHT}
     })
+  
     :finish(function()
-        
+        gSounds['battle-music']:stop()
+        gSounds['faint']:play()
         -- when finished, push a loss message
         gStateStack:push(BattleMessageState('You fainted!',
     
